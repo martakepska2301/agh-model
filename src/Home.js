@@ -32,19 +32,8 @@ const Home = () => (
       <Agh src={pomnik} />
     </Container>
     <Text>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-      voluptatum alias optio esse nihil vero porro consequuntur, quos voluptas
-      itaque, ducimus corporis ea qui maiores nam, quas assumenda voluptate at!
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-      voluptatum alias optio esse nihil vero porro consequuntur, quos voluptas
-      itaque, ducimus corporis ea qui maiores nam, quas assumenda voluptate at!
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-      voluptatum alias optio esse nihil vero porro consequuntur, quos voluptas
-      itaque, ducimus corporis ea qui maiores nam, quas assumenda voluptate at!
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-      voluptatum alias optio esse nihil vero porro consequuntur, quos voluptas
-      itaque, ducimus corporis ea qui maiores nam, quas assumenda voluptate at!
-    </Text>
+    Pomnik ks. bp Albina Małysiaka był przedmiotem pracy magisterskiej pt. „Tworzenie i udostępnianie modeli 3D w Internecie”, wykonanej przez studentkę Wydzialu Geodezji Górniczej i Inżynierii Środowiska AGH - Martę Kępską-Toborek.
+Polegała ona na stworzeniu dwóch modeli wspomnianego pomnika, oraz ich wizualizacji na niniejszej stronie internetowej </Text>
     <Footer />
   </Container>
 );
