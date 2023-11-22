@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+
 import Footer from "./Footer";
 import Pomnik from "./Pomnik";
-import PomnikDwa from "./PomnikDwa";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Stars } from "@react-three/drei";
 
 const Container = styled.div`
   display: flex;
@@ -41,7 +41,7 @@ const Visualization = () => {
           />
           <pointLight position={[10, 10, 10]} decay={0} intensity={Math.PI} />
           <Pomnik position={[0, 2, 0]} />
-          {/* <PomnikDwa position={[-1.5, -0.33, 0]} rotation={[0, 750, 0]} /> */}
+          {/* <PomnikBis position={[-1.5, -0.33, 0]} rotation={[0, 750, 0]} /> */}
           <OrbitControls />
         </Canvas>{" "}
         <Text>
@@ -63,8 +63,9 @@ const Visualization = () => {
           />
           <pointLight position={[10, 10, 10]} decay={0} intensity={Math.PI} />
           {/* <Pomnik position={[1.5, 2, 0]} /> */}
-          <PomnikDwa position={[0, 0, 0]} rotation={[0, 1460, 0]} />
+          {/* <PomnikDwa position={[0, 0, 0]} rotation={[0, 1460, 0]} /> */}
           <OrbitControls />
+          <Stars />
         </Canvas>
       </Container>
       <Footer />

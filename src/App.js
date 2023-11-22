@@ -67,10 +67,7 @@ const App = () => (
         <Home />
       </Route>
       <Route path="/visualization">
-        {/* <Visualization /> */}
-<p>
-  hej
-</p>
+        <Visualization />
       </Route>
       <Route path="/map">
         <Map />
